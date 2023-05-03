@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* stilização do button nav owl-carrousel */
+
+#botao_anterior,
+#botao_proximo {
+    position: absolute;
+    top: 130px;
+}
+
+#botao_anterior {
+    left: 15px;
+}
+
+#botao_proximo {
+    right: 15px;
+}
+
+/* Para telas com largura menor ou igual a 610px */
+@media screen and (max-width: 610px) {
+
+    #botao_anterior,
+    #botao_proximo {
+        display: none;
+    }
+}
